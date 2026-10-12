@@ -48,8 +48,8 @@ class Employee {
     }
 }
 
-public class task3 {
-    public static void main(String[] args) {
+public class Task3 {
+    public static void solveTask3() {
         ArrayList<Employee> employees = Stream.of(
                 new Employee("Иванов Иван Иванович", 28, "IT", 100000.0),
                 new Employee("Петров Петр Петрович", 35, "IT", 150000.0),

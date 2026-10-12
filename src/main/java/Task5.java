@@ -2,7 +2,7 @@ import java.io.*;
 import java.net.URI;
 import java.net.URLConnection;
 
-public class task5 {
+public class Task5 {
 
     interface Task {
         void start();
@@ -10,7 +10,7 @@ public class task5 {
         void stop();
     }
 
-    public class DownloadTask implements Task {
+    public static class DownloadTask implements Task {
         private final String fileUrl;
         private final String savePath;
 

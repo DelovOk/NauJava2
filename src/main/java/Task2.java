@@ -3,7 +3,7 @@ import java.util.List;
 import java.util.Random;
 import java.util.Scanner;
 
-public class task2 {
+public class Task2 {
     public static ArrayList<Double> quickSort(List<Double> arrayList) {
         if (arrayList.size() <= 1) {
             return new ArrayList<>(arrayList);
@@ -22,7 +22,7 @@ public class task2 {
         return result;
     }
 
-    public static void main(String[] args) {
+    public static void solveTask2() {
         Scanner scanner = new Scanner(System.in);
         int n;
         do {

@@ -2,8 +2,8 @@ import java.util.Arrays;
 import java.util.Random;
 import java.util.Scanner;
 
-public class task1 {
-    public static void main(String[] args) {
+public class Task1 {
+    public static void solveTask1() {
         Scanner scanner = new Scanner(System.in);
         int n;
         do {
